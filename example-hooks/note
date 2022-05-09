@@ -1,0 +1,12 @@
+use classNames package 
+https://www.npmjs.com/package/classnames
+
+useState
+useEffect
+useContext
+
+useMemo
+useCallback
+useLayoutEffect - Synchronize
+
+ES6 modules are singletons
