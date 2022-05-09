@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# HOST=0.0.0.0 BROWSER=none npm start
+# HOST=0.0.0.0 npm start
+
+if [ $# -eq 0 ]
+then
+    echo "Please provide a project to start"
+    exit 1
+fi
+
+app=${1}
+
+if [ ! -d "${app}" ]; then
+    echo "Directory ${app} does not exist"
+    exit 1
+fi
+
+cd ${app}
+
+npm start
