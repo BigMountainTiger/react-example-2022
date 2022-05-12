@@ -1,0 +1,25 @@
+https://morioh.com/p/1dee5f557fa9
+
+1. npm install react-router-dom
+It is all for web development - https://stackoverflow.com/questions/42684809/react-router-vs-react-router-dom-when-to-use-one-or-the-other
+
+2. Create a route
+https://www.robinwieruch.de/react-router-private-routes/
+https://stackoverflow.com/questions/70402808/isactive-style-in-react-router-v-6
+
+3. Nested Route
+https://www.robinwieruch.de/react-router-nested-routes/
+
+4. Hooks
+https://dev.to/boywithsilverwings/the-hooks-of-react-router-4k4b
+useHistory
+useLocation
+useParams
+useRouteMatch
+
+5. Bootstrap
+https://create-react-app.dev/docs/adding-bootstrap/
+https://www.freakyjolly.com/react-bootstrap-4-modals-passing-data-from-component-tutorial/
+https://stackoverflow.com/questions/72108482/reactjs-compiled-with-warning - Remove autoprefixer warning 
+Modal, etc
+npm i react-bootstrap bootstrap

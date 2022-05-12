@@ -1,0 +1,14 @@
+.content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+}
+
+nav > a {
+    margin: 2px 5px 1px 2px;
+}
+
+nav > a.active {
+    color: aqua;
+    font-weight: 600;
+    pointer-events: none;
+}

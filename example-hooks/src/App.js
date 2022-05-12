@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { UserContext } from './contexts/UserContext';
 import Component1 from './components/Component1';
+import UseRefExample from './components/UseRefExample';
+
 import { OBJ } from './services/Service1';
 
 import './App.css';
@@ -68,6 +70,7 @@ function App() {
       <br />
       <div>{process.env.REACT_APP_VARIABLE}</div>
 
+      <UseRefExample></UseRefExample>
     </div>
   );
 }
